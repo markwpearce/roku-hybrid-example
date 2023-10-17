@@ -6,7 +6,7 @@ The idea is that only one screen mode is active at any time, but just before the
 
 **This has been tested with Roku OS 12. Roku may change the ability to switch modes at any time. There is no guarentee that this method will work in future versions of Roku OS.**
 
-I belive that in the background, SceneGraph uses the same draw canvas as when you use `roScreen` for images, so if the `roScreen` is still active when the Scenegrpah scene is being displayed, images will not appear. That's why it's important to close an active `roScreen` directly after calling `roSGScreen.show()`.
+I belive that in the background, SceneGraph uses the same draw canvas as when you use `roScreen` for images, so if the `roScreen` is still active when the Scenegraph scene is being displayed, images will not appear. That's why it's important to close an active `roScreen` directly after calling `roSGScreen.show()`.
 
 ![SceneGraph Screenshot](./docs/scenegraph-screenshot.jpg)
 
