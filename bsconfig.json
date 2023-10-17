@@ -1,0 +1,8 @@
+{
+  "rootDir": "src",
+  "files": [
+    "**/*"
+  ],
+  "sourceMap": true,
+  "emitDefinitions": false
+}
